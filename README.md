@@ -20,9 +20,9 @@ I like building under pressure with a team. A couple of highlights:
 
 ## Skills
 
-- **Strong:** Python (pandas, numpy), SQL
+- **Strong:** C (OpenMP), Python (pandas, numpy), SQL
 - **Working:** R
-- **Familiar:** C (OpenMP), Z3 / SMT, Linear Programming (PuLP), scikit-learn, Dash, pygame, LaTeX
+- **Familiar:** Z3 / SMT, Linear Programming (PuLP), scikit-learn, Dash, pygame, LaTeX
 
 ## Contact
 
