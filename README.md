@@ -20,9 +20,26 @@ I like building under pressure with a team. A couple of highlights:
 
 ## Skills
 
-- **Strong:** C (OpenMP), Python (pandas, numpy), SQL
-- **Working:** R
-- **Familiar:** Z3 / SMT, Linear Programming (PuLP), scikit-learn, Dash, pygame, LaTeX
+**Strong**
+
+![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
+![OpenMP](https://img.shields.io/badge/OpenMP-005377?style=for-the-badge)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+
+**Working**
+
+![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
+![pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+
+**Familiar**
+
+![Z3 / SMT](https://img.shields.io/badge/Z3%20%2F%20SMT-6E4AFF?style=for-the-badge)
+![PuLP](https://img.shields.io/badge/Linear%20Programming-PuLP-2C8EBB?style=for-the-badge)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
+![Dash](https://img.shields.io/badge/Dash-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
+![LaTeX](https://img.shields.io/badge/LaTeX-008080?style=for-the-badge&logo=latex&logoColor=white)
 
 ## Contact
 
