@@ -9,14 +9,14 @@ I work on software where theory meets code: interpreters and languages, procedur
 
 - **[TensorForth Interpreter](https://github.com/xtraid/PAP_TensorFort_interpreter)** — a stack-based interpreter written in C17 for a Forth-like language specialized in linear algebra over 2D tensors. OpenMP build, 82-test suite with Valgrind leak checks.
 - **[Hexagonal Wang Tiles](https://github.com/xtraid/tiles_generator)** — procedural map generator based on hexagonal Wang tiles, with a Pygame renderer and a Z3 SMT solver module. Includes a formal undecidability reduction. Candidate for my B.Sc. thesis.
-- **[PAP Render](https://github.com/xtraid/PAP_render)** — command-line pixel-art renderer: 16-color indexed palette, sprite flip and rotation, PNG export.
+- **[PAP Render](https://github.com/xtraid/PAP_render)** — command-line pixel-art renderer: 16-color indexed palette, sprite flip and rotation, PNG export. 144-test pytest suite with CI.
 
 ## Hackathons
 
 I like building under pressure with a team. A couple of highlights:
 
 - **[FlowScore](https://github.com/xtraid/FlowScore)** (SkillBoost 2026) — alternative credit scoring for underbanked gig workers; owned the architecture and the synthetic-data pipeline.
-- **Generali Coverage Recommender** (Generali Data Challenge 2025) — owned feature engineering (61 → 21 predictive signals) for a hybrid recommender.
+- **[Generali Coverage Recommender](https://github.com/xtraid/generali_challenge)** (Generali Data Challenge 2025) — owned feature engineering (61 → 21 predictive signals) for a hybrid recommender.
 
 ## Skills
 
@@ -32,6 +32,7 @@ I like building under pressure with a team. A couple of highlights:
 ![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
 ![pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![matplotlib](https://img.shields.io/badge/matplotlib-11557C?style=for-the-badge&logo=matplotlib&logoColor=white)
 
 **Familiar**
 
