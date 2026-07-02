@@ -13,10 +13,10 @@ I work on software where theory meets code: interpreters and languages, procedur
 
 ## Hackathons
 
-I like building under pressure with a team. A couple of highlights:
+I like building under pressure with a team, owning the data and optimization layers while teammates handle the ML modeling — demand forecasting + supply-chain LP at [Zucchetti 2025](https://github.com/xtraid/hackathon_zucchetti), route-aware LP optimization at [EESTech 2025](https://github.com/xtraid/Hackathon_EESTech). A couple of highlights:
 
 - **[FlowScore](https://github.com/xtraid/FlowScore)** (SkillBoost 2026) — alternative credit scoring for underbanked gig workers; owned the architecture and the synthetic-data pipeline.
-- **[Generali Coverage Recommender](https://github.com/xtraid/generali_challenge)** (Generali Data Challenge 2025) — owned feature engineering (61 → 21 predictive signals) for a hybrid recommender.
+- **[Generali Coverage Recommender](https://github.com/xtraid/generali_challenge)** (Generali Data Challenge 2025) — owned feature engineering (61 → 21 predictive signals) for a hybrid recommender, in a team with MSc Data Science students and a PhD researcher.
 
 ## Skills
 
