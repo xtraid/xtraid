@@ -9,7 +9,7 @@ I work on software where theory meets code: interpreters and languages, procedur
 
 - **[TensorForth Interpreter](https://github.com/xtraid/PAP_TensorForth_interpreter)** — a stack-based interpreter written in C17 for a Forth-like language specialized in linear algebra over 2D tensors. OpenMP build, 82-test suite with Valgrind leak checks.
 - **[Hexagonal Wang Tiles](https://github.com/xtraid/tiles_generator)** — procedural map generator based on hexagonal Wang tiles, with a Pygame renderer and a Z3 SMT solver module. Includes a formal undecidability reduction. Candidate for my B.Sc. thesis.
-- **[PAP Render](https://github.com/xtraid/PAP_render)** — command-line pixel-art renderer: 16-color indexed palette, sprite flip and rotation, PNG export. 144-test pytest suite with CI.
+- **[Cantina DB](https://github.com/xtraid/cantina-db)** — relational database for a wine-cellar chain: 23-table MariaDB schema with a `(t,d)` generalization hierarchy, 3NF normalization, trigger-maintained inventory, and per-role views and users. Bilingual (EN/IT) docs and a **[live Streamlit demo](https://cantina-db.streamlit.app/)**.
 
 ## Hackathons
 
