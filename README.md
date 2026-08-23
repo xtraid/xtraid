@@ -1,49 +1,70 @@
 # Manuel Magnabosco
 
-Second-year B.Sc. student in Artificial Intelligence & Data Analytics at the University of Trieste.
-I work on software where theory meets code: interpreters and languages, procedural generation, and formal methods (SAT/SMT).
+B.Sc. student in Artificial Intelligence & Data Analytics at the University of
+Trieste. I build auditable software across systems programming, formal methods,
+local agents, and applied data.
 
----
+## Featured work
 
-## Featured projects
+- **[Tiling Foundry](https://github.com/xtraid/tiling-foundry)** — an
+  executable, inspectable reconstruction of the Yang–Zhang NP-completeness
+  reduction for a fixed set of 23 Wang tiles. It keeps region construction,
+  native C solvers, Z3 oracles, and witness verification separate so the
+  reduction can be checked from several independent directions.
 
-- **[TensorForth Interpreter](https://github.com/xtraid/PAP_TensorForth_interpreter)** — a stack-based interpreter written in C17 for a Forth-like language specialized in linear algebra over 2D tensors. OpenMP build, 82-test suite with Valgrind leak checks.
-- **[Hexagonal Wang Tiles](https://github.com/xtraid/tiles_generator)** — procedural map generator based on hexagonal Wang tiles, with a Pygame renderer and a Z3 SMT solver module. Includes a formal undecidability reduction. Candidate for my B.Sc. thesis.
-- **[Cantina DB](https://github.com/xtraid/cantina-db)** — relational database for a wine-cellar chain: 23-table MariaDB schema with a `(t,d)` generalization hierarchy, 3NF normalization, trigger-maintained inventory, and per-role views and users. Bilingual (EN/IT) docs and a **[live Streamlit demo](https://cantina-db.streamlit.app/)**.
+- **[TensorForth](https://github.com/xtraid/PAP_TensorForth_interpreter)** — a
+  C17 stack-based interpreter for a Forth-like tensor language, with OpenMP,
+  reference-counted storage, an 82-test suite, and Valgrind checks.
 
-## Hackathons
+- **[KaleidoSpeech](https://github.com/xtraid/KaleidoSpeech)** — a team proof
+  of concept for pronunciation training, combining browser audio streaming,
+  FastAPI, Redis, SQLite, signal processing, phoneme alignment, and a gamified
+  interface. It is a research prototype, not a clinically validated product.
 
-I like building under pressure with a team, owning the data and optimization layers while teammates handle the ML modeling — demand forecasting + supply-chain LP at [Zucchetti 2025](https://github.com/xtraid/hackathon_zucchetti), route-aware LP optimization at [EESTech 2025](https://github.com/xtraid/Hackathon_EESTech). A couple of highlights:
+## Currently building
 
-- **[FlowScore](https://github.com/xtraid/FlowScore)** (SkillBoost 2026) — alternative credit scoring for underbanked gig workers; owned the architecture and the synthetic-data pipeline.
-- **[Generali Coverage Recommender](https://github.com/xtraid/generali_challenge)** (Generali Data Challenge 2025) — owned feature engineering (61 → 21 predictive signals) for a hybrid recommender, in a team with MSc Data Science students and a PhD researcher.
+- **[Gelsomino Vine](https://github.com/xtraid/gelsomino-vine)** — the
+  model-free conformance foundation of a local agent system: typed protocol
+  envelopes, deterministic serialization, causal sequencing, retry rules,
+  golden vectors, reproducible builds, and CodeQL. Agent behavior and runtime
+  execution are intentionally still out of scope.
 
-## Skills
+## Applied data and optimization
 
-**Strong**
+- **[FlowScore](https://github.com/xtraid/flowscore)** — alternative credit
+  scoring for gig workers. I designed the architecture, synthetic-data engine,
+  shock scenarios, and validation that compared static credit scores with
+  dynamic debt outcomes.
 
-![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
-![OpenMP](https://img.shields.io/badge/OpenMP-005377?style=for-the-badge)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+- **[Cantina DB](https://github.com/xtraid/cantina-db)** — database coursework
+  extended into a working MariaDB and Streamlit demo, with a normalized schema,
+  trigger-maintained inventory, stored procedures, role-based access, and
+  bilingual documentation.
 
-**Working**
+- Team hackathon work includes feature engineering for the
+  **[Generali Coverage Recommender](https://github.com/xtraid/generali_challenge)**,
+  demand forecasting and supply-chain LP for
+  **[Zucchetti 2025](https://github.com/xtraid/hackathon_zucchetti)**, and
+  route-aware e-bike energy optimization for
+  **[EESTech 2025](https://github.com/xtraid/Hackathon_EESTech)**.
 
-![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
-![pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![matplotlib](https://img.shields.io/badge/matplotlib-11557C?style=for-the-badge&logo=matplotlib&logoColor=white)
+## More engineering projects
 
-**Familiar**
+- **[PAP Render](https://github.com/xtraid/PAP_render)** — a feature-complete
+  Python/NumPy pixel-art renderer with packed assets, sprite transformations,
+  PNG export, and 135 tests.
 
-![Z3 / SMT](https://img.shields.io/badge/Z3%20%2F%20SMT-6E4AFF?style=for-the-badge)
-![PuLP](https://img.shields.io/badge/Linear%20Programming-PuLP-2C8EBB?style=for-the-badge)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
-![Dash](https://img.shields.io/badge/Dash-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
-![LaTeX](https://img.shields.io/badge/LaTeX-008080?style=for-the-badge&logo=latex&logoColor=white)
+- **[ADS](https://github.com/xtraid/ADS)** — a long-term didactic C library of
+  handwritten algorithms and data structures, currently focused on binary
+  search trees.
+
+## Tools I use
+
+- Systems and verification: C17, OpenMP, sanitizers, Valgrind, SAT/SMT, Z3
+- Python and data: Python, SQL, NumPy, pandas, FastAPI, Redis, SQLite, MariaDB
+- Modeling and delivery: PuLP, time-series models, Docker, GitHub Actions
 
 ## Contact
 
-- Email: M.Magnabosco@outlook.it
-- LinkedIn: [manuel-magnabosco](https://linkedin.com/in/manuel-magnabosco)
-- Discord: manu_raid
+- [LinkedIn](https://www.linkedin.com/in/manuel-magnabosco-127b68403/)
+- [Email](mailto:M.Magnabosco@outlook.it)
