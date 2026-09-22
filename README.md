@@ -1,70 +1,47 @@
 # Manuel Magnabosco
 
-B.Sc. student in Artificial Intelligence & Data Analytics at the University of
-Trieste. I build auditable software across systems programming, formal methods,
-local agents, and applied data.
+I'm studying Artificial Intelligence & Data Analytics at the University of
+Trieste. I'm interested in computational complexity, formal methods, and systems
+programming. I like implementing things to understand how they work, then finding
+ways to check that they do what I expect.
 
-## Featured work
+## Projects
 
-- **[Tiling Foundry](https://github.com/xtraid/tiling-foundry)** — an
-  executable, inspectable reconstruction of the Yang–Zhang NP-completeness
-  reduction for a fixed set of 23 Wang tiles. It keeps region construction,
-  native C solvers, Z3 oracles, and witness verification separate so the
-  reduction can be checked from several independent directions.
+- **[Tiling Foundry](https://github.com/xtraid/tiling-foundry)** — implements
+  the Yang–Zhang reduction from CM1-in-3 SAT to a fixed 23-tile Wang system,
+  with a C reference solver, Z3 checks, witness verification, and reproducible
+  run dossiers.
 
 - **[TensorForth](https://github.com/xtraid/PAP_TensorForth_interpreter)** — a
-  C17 stack-based interpreter for a Forth-like tensor language, with OpenMP,
-  reference-counted storage, an 82-test suite, and Valgrind checks.
+  C17 interpreter for a Forth-like tensor language, with OpenMP,
+  reference-counted tensor storage, tests, and Valgrind checks.
+
+- **[Gelsomino Vine](https://github.com/xtraid/gelsomino-vine)** — an
+  experimental local-agent system I'm building from the protocol layer upward,
+  starting with deterministic messages, causal ordering, and reproducible
+  conformance tests.
 
 - **[KaleidoSpeech](https://github.com/xtraid/KaleidoSpeech)** — a team proof
-  of concept for pronunciation training, combining browser audio streaming,
-  FastAPI, Redis, SQLite, signal processing, phoneme alignment, and a gamified
-  interface. It is a research prototype, not a clinically validated product.
+  of concept built for a hackathon in Hangzhou, exploring pronunciation training
+  through browser audio, phoneme alignment, and visual feedback.
 
-## Currently building
+- **[ADS](https://github.com/xtraid/ADS)** — a C library where I implement
+  algorithms and data structures by hand to learn them, from binary search trees
+  to graphs and stacks for depth-first traversal. It grows one piece at a time.
 
-- **[Gelsomino Vine](https://github.com/xtraid/gelsomino-vine)** — the
-  model-free conformance foundation of a local agent system: typed protocol
-  envelopes, deterministic serialization, causal sequencing, retry rules,
-  golden vectors, reproducible builds, and CodeQL. Agent behavior and runtime
-  execution are intentionally still out of scope.
+## Other work
 
-## Applied data and optimization
+[FlowScore](https://github.com/xtraid/flowscore) explores credit scoring for gig
+workers; [Cantina DB](https://github.com/xtraid/cantina-db) turns database
+coursework into a working demo; and [PAP Render](https://github.com/xtraid/PAP_render)
+is a pixel-art renderer in Python and NumPy.
 
-- **[FlowScore](https://github.com/xtraid/flowscore)** — alternative credit
-  scoring for gig workers. I designed the architecture, synthetic-data engine,
-  shock scenarios, and validation that compared static credit scores with
-  dynamic debt outcomes.
-
-- **[Cantina DB](https://github.com/xtraid/cantina-db)** — database coursework
-  extended into a working MariaDB and Streamlit demo, with a normalized schema,
-  trigger-maintained inventory, stored procedures, role-based access, and
-  bilingual documentation.
-
-- Team hackathon work includes feature engineering for the
-  **[Generali Coverage Recommender](https://github.com/xtraid/generali_challenge)**,
-  demand forecasting and supply-chain LP for
-  **[Zucchetti 2025](https://github.com/xtraid/hackathon_zucchetti)**, and
-  route-aware e-bike energy optimization for
-  **[EESTech 2025](https://github.com/xtraid/Hackathon_EESTech)**.
-
-## More engineering projects
-
-- **[PAP Render](https://github.com/xtraid/PAP_render)** — a feature-complete
-  Python/NumPy pixel-art renderer with packed assets, sprite transformations,
-  PNG export, and 135 tests.
-
-- **[ADS](https://github.com/xtraid/ADS)** — a long-term didactic C library of
-  handwritten algorithms and data structures, currently focused on binary
-  search trees.
-
-## Tools I use
-
-- Systems and verification: C17, OpenMP, sanitizers, Valgrind, SAT/SMT, Z3
-- Python and data: Python, SQL, NumPy, pandas, FastAPI, Redis, SQLite, MariaDB
-- Modeling and delivery: PuLP, time-series models, Docker, GitHub Actions
+I've also worked on team hackathon projects: insurance coverage recommendations
+with [Generali](https://github.com/xtraid/generali_challenge), demand forecasting
+and supply-chain optimization with [Zucchetti](https://github.com/xtraid/hackathon_zucchetti),
+and e-bike energy optimization at [EESTech](https://github.com/xtraid/Hackathon_EESTech).
 
 ## Contact
 
-- [LinkedIn](https://www.linkedin.com/in/manuel-magnabosco-127b68403/)
-- [Email](mailto:M.Magnabosco@outlook.it)
+[LinkedIn](https://www.linkedin.com/in/manuel-magnabosco-127b68403/) ·
+[Email](mailto:M.Magnabosco@outlook.it)
