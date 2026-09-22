@@ -20,6 +20,11 @@ ways to check that they do what I expect.
   algorithms and data structures by hand to learn them, from binary search trees
   to graphs and stacks for depth-first traversal. It grows one piece at a time.
 
+- **[Cantina DB](https://github.com/xtraid/cantina-db)** — a relational database
+  and management app for winery inventory, with trigger-maintained stock,
+  stored procedures, role-based access, and a Streamlit demo.
+  [Try the demo](https://cantina-db.streamlit.app/).
+
 - **[FlowScore](https://github.com/xtraid/flowscore)** — explores credit scoring
   for gig workers. I designed the architecture, synthetic-data engine, and shock
   scenarios to compare static credit scores with debt outcomes over time.
@@ -30,8 +35,6 @@ ways to check that they do what I expect.
 
 ## Other work
 
-[Cantina DB](https://github.com/xtraid/cantina-db) turns database coursework into
-a MariaDB and Streamlit demo with inventory tracking, roles, and stored procedures.
 [PAP Render](https://github.com/xtraid/PAP_render) is a pixel-art renderer in
 Python and NumPy.
 
